@@ -6,10 +6,10 @@ p {
 body {
     margin-top:15px;
     background-image: url(../thumbnails/arnold.jpg);
-    background-size: contain;
-    background-color: black;
     background-size: cover;
-    height: 1300px;
+    background-color: black;
+    background-repeat: no-repeat;
+    height: 1200px;
+    width:min (90%,1200px);
     }
-    
     
