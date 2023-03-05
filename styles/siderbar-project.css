@@ -1,0 +1,69 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin-left: 20px;
+       
+}
+
+
+ .protein {
+    color:rgb(195, 18, 18);
+    width: 180px;
+    margin-top:160px ;
+    margin-bottom: 40px;
+    
+    
+}
+ .protein:hover {
+   background-color:rgb(195, 18, 18);
+   opacity: 1;
+   color: white;
+   transition-duration: 0.40s;
+   
+
+ }
+ .creatine {
+    color:rgb(181, 181, 27);
+    width: 118px;
+    margin-bottom: 40px;
+ }
+ .creatine:hover {
+   background-color:rgb(181, 181, 27);
+   opacity: 1;
+   color: white;
+   transition-duration: 0.40s;
+ }
+
+ .amino {
+    color:rgb(89, 18, 89);
+    width: 330px;
+    margin-bottom: 40px;   
+ }
+ .amino:hover {
+   background-color:rgb(89, 18, 89);
+   opacity: 1;
+   color: white;
+   transition-duration: 0.40s;
+ }
+
+ .vitamins {
+    color:rgb(8, 97, 8);
+     width:410px;
+    margin-bottom: 40px;
+ }
+ .vitamins:hover {
+   background-color:rgb(8, 97, 8);
+   opacity: 1;
+   color: white;
+   transition-duration: 0.40s;
+ }
+
+ .protein,
+ .creatine,
+ .amino,
+ .vitamins {
+  cursor:pointer;
+ }
+ 
+ 

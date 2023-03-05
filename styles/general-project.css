@@ -1,0 +1,15 @@
+p {
+    font-family:Roboto,Arial;
+   
+}
+
+body {
+    margin-top:15px;
+    background-image: url(../thumbnails/arnold.jpg);
+    background-size: contain;
+    background-color: black;
+    background-size: cover;
+    height: 1300px;
+    }
+    
+    

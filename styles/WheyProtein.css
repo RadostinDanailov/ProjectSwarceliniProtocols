@@ -1,0 +1,46 @@
+body {
+    max-width: 1200px;
+    background-color: black;
+    font-family: Roboto,Arial;
+}
+.protein-products{
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+
+
+.whey-info {
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    width: 270px;
+    height: 270px;
+    
+   
+
+
+}
+.products-info {
+    color: white;
+    font-weight: bold;
+  
+}
+
+
+.whey-button {
+    width:270px;
+    height: 40px;
+    font-size: 16px;
+    background-color:#0074e8;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.whey-button:hover {
+    background-color:#2a8cef; ;
+}
+
+    
