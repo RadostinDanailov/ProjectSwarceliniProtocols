@@ -1,6 +1,7 @@
 .sidebar {
     display: flex;
     flex-direction: column;
+    max-width: fit-content;
     font-size: 30px;
     margin-left: 20px;
        
@@ -37,8 +38,9 @@
 
  .amino {
     color:rgb(89, 18, 89);
-    width: 330px;
+    width: 236px;
     margin-bottom: 40px;   
+  
  }
  .amino:hover {
    background-color:rgb(89, 18, 89);
@@ -49,7 +51,7 @@
 
  .vitamins {
     color:rgb(8, 97, 8);
-     width:410px;
+     width:245px;
     margin-bottom: 40px;
  }
  .vitamins:hover {
@@ -65,5 +67,6 @@
  .vitamins {
   cursor:pointer;
  }
+ 
  
  
