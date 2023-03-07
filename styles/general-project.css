@@ -1,3 +1,4 @@
+
 p {
     font-family:Roboto,Arial;
    
@@ -9,7 +10,8 @@ body {
     background-size: cover;
     background-color: black;
     background-repeat: no-repeat;
-    height: 1200px;
-    width:min (90%,1200px);
+    width: 100%;
+   
+    
     }
     
