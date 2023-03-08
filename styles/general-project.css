@@ -1,17 +1,27 @@
 
 p {
     font-family:Roboto,Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
    
 }
 
 body {
-    margin-top:15px;
+    
+    width: 100%;
     background-image: url(../thumbnails/arnold.jpg);
     background-size: cover;
     background-color: black;
     background-repeat: no-repeat;
-    width: 100%;
-   
+  
     
-    }
+  }
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+      body {
+        width: 100%;
+        
+      }
+     }
     
