@@ -9,13 +9,10 @@ body {
     width: 100%;
     grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
     gap: 10rem;
+    margin-bottom: 20px;
    
 }
-@media screen and (min-width:390px) and (max-width:750px){
-    .protein-products {
-        margin-top: 25px;
-    }
-}
+
     
 
 
@@ -51,6 +48,3 @@ body {
 .whey-button:hover {
     background-color:#2a8cef; ;
 }
-
-    
-
