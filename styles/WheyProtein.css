@@ -1,28 +1,37 @@
 body {
-    max-width: 1200px;
+   
     background-color: black;
     font-family: Roboto,Arial;
+    
 }
 .protein-products{
-    display: flex;
-    justify-content: space-between;
-    
-    
-
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    gap: 10rem;
+   
 }
+@media screen and (min-width:390px) and (max-width:750px){
+    .protein-products {
+        margin-top: 25px;
+    }
+}
+    
 
 
 .whey-info {
+    
     display: flex;
     flex-direction: column;
     object-fit: cover;
     width: 270px;
     height: 270px;
     
-   
-
+    
 
 }
+
+    
 .products-info {
     color: white;
     font-weight: bold;
@@ -44,3 +53,4 @@ body {
 }
 
     
+
