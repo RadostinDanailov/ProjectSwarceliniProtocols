@@ -36,19 +36,6 @@ All infrastructure is provisioned and managed using **Terraform**, ensuring a re
 
 ---
 
-├── infra/                     # Terraform configuration
-│   ├── main.tf
-│   ├── variables.tf
-│   ├── outputs.tf
-│   └── ...
-├── .github/workflows/
-│   └── deploy.yml             # CI/CD pipeline
-├── index.html                 # Example static site content
-└── README.md
-
-
----
-
 ## ⚙️ CI/CD Pipeline (GitHub Actions)
 
 The workflow automatically:
