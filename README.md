@@ -86,14 +86,6 @@ https://d274qj79mowjvv.cloudfront.net/ProjectSwarceliniProtocols.html
 - Add CloudWatch monitoring  
 - Add WAF for security hardening  
 
----
-
-## 👤 Author
-
-**Radostin Danailov**  
-DevOps & Cloud Engineering Enthusiast  
-Chester, UK  
-
 
 
 
