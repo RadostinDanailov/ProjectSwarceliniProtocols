@@ -1,4 +1,4 @@
-# 🌐 Static Website Deployment on AWS  
+# Static Website Deployment on AWS  
 # S3 + CloudFront + Terraform + GitHub Actions
 
 This project hosts a static website on **Amazon S3**, delivered globally through **CloudFront**, with fully automated deployments using **GitHub Actions**.  
@@ -6,7 +6,7 @@ All infrastructure is provisioned and managed using **Terraform**, ensuring a re
 
 ---
 
-## 🚀 Features
+## Features
 
 - Static website hosting on Amazon S3  
 - Global CDN distribution via CloudFront  
@@ -18,7 +18,7 @@ All infrastructure is provisioned and managed using **Terraform**, ensuring a re
 
 ---
 
-## 🏗️ Architecture Overview :
+## Architecture Overview :
 
 
 - GitHub Actions deploys the site to S3  
@@ -27,7 +27,7 @@ All infrastructure is provisioned and managed using **Terraform**, ensuring a re
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 
 - GitHub Actions deploys the site to S3  
@@ -36,7 +36,7 @@ All infrastructure is provisioned and managed using **Terraform**, ensuring a re
 
 ---
 
-## ⚙️ CI/CD Pipeline (GitHub Actions)
+## CI/CD Pipeline (GitHub Actions)
 
 The workflow automatically:
 
@@ -57,9 +57,9 @@ Terraform provisions:
 
 ---
 
-## 🔐 Required GitHub Secrets
+## Required GitHub Secrets
 
-Your GitHub Actions workflow requires these secrets:
+GitHub Actions workflow requires these secrets:
 
 | Secret Name | Description |
 |-------------|-------------|
@@ -71,14 +71,14 @@ Your GitHub Actions workflow requires these secrets:
 
 ---
 
-## 🌍 Live URL
+## Live URL
 
 Add your CloudFront domain here:
 
 https://d274qj79mowjvv.cloudfront.net/ProjectSwarceliniProtocols.html
 
 
-## 🧪 Future Improvements
+## Future Improvements
 
 - Add custom domain + Route53 + ACM certificate  
 - Add build step (React, Astro, Hugo, etc.)  
